@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    </head>
+    <body>
+        <div id="imgwrap">
+            <img src="https://source.unsplash.com/random/400x400" id="masterimg">
+            <br>
+            <button type="reset" class="btn" id="generate">Generate Random Image</button>
+            <br>
+            <label for="imgurl">You can also enter the image URL</label>
+            <br>
+            <input type="text" id="imgurl" name="imgurl">
+            <br>
+            <button class="btn" id="submit">Submit</button>
+        </div>
+        <div id="controls">
+            <form>
+                <div class="cntrl">
+                    <label for="padding">Border Size</label>
+                    <input type="range" min="0" max="20" value="2" name="padding" id="pad">
+                </div>
+                <div class="cntrl">
+                    <label for="basecolor">Border Color</label>
+                    <input type="color" value="#000" name="basecolor" id="bcolor">
+                </div>
+                <div class="cntrl">
+                    <label for="bness">Brightness</label>
+                    <input type="range" min="0" max="200" value="100" name="bness" id="brightness">
+                </div>
+                <div class="cntrl">
+                    <label for="cntrst">Contrast</label>
+                    <input type="range" min="0" max="200" value="100" name="cntrst" id="contrast">
+                </div>
+                <div class="cntrl">
+                    <label for="sat">Saturation</label>
+                    <input type="range" min="0" max="200" value="100" name="sat" id="saturation">
+                </div>
+            </form>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
