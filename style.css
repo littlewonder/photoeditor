@@ -8,6 +8,9 @@
 
 body{
     background: #f0f5ff;
+    margin: 0 auto;
+    width: 800px;
+    margin-top: 5vw;
 }
 
 img{
@@ -26,13 +29,13 @@ img{
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 8vw;
+    top: 4vw;
     float: left;
     left: 5vw;
 }
 
 #imgwrap{
-    margin-top: 5vw;
+    margin-top: 1vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,8 +94,8 @@ label{
     width: 200px;
 }
 .cntrl{
-    margin: 10px;
-    font-size: 18px;
+    margin: 20px;
+    font-size: 20px;
     display: flex;
 }
 
@@ -103,7 +106,7 @@ label{
 }
 
 .cntrl> label{
-    margin-right: 10px;
+    margin-right: 1vw;
 }
 
 #imgwrap > input{
